@@ -102,14 +102,79 @@ border-radius: 4px;
 background: #469165;
 color: rgba(255, 255, 255, 1);
 border: none;
+cursor: pointer ;
 }
 
 .btn-outline {
     background: transparent;
     border: 1px solid white; 
-    
+    cursor: pointer;
     padding: 12px 16px 12px 16px;
 }
 .span{
     color: #30B868;
 }
+
+/* THIRD SECTION */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.third{
+    text-align: center;
+    padding: 120px 0;
+    margin-bottom: 15px;
+
+}
+
+.third h2{
+    color: var(--#001931, var(--Color, rgba(0, 25, 49, 1)))
+font-size: 24px;
+font-weight: 600;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.third-cards{
+    display: flex;
+    .feature-card {
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    border: 1px solid #f3f4f6; /* Subtle border from Figma */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+}
+.subtitle{
+    color:#627382;
+}
+
+.card .icon{
+    background-color: red;
+    margin: auto;
+width: 60px;
+height: 60px;
+border-radius: 14px;
+margin-bottom: 16px;
+}
+.card {
+    border-radius: 8px;
+box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+background: rgba(255, 255, 255, 1);
+width: 322px;
+height: 300px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 16;
+padding: 24px;
+}
+
