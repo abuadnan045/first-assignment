@@ -44,3 +44,72 @@ border-radius: 4px;
 font-weight: 600;
 cursor: pointer;
 }
+
+/* second section */
+.second-section{
+    width: 1600px;
+    height: 674px;
+    max-width:fit-content;
+    background: url(../assets/hero-bg.png);
+    margin: 0px auto;
+    text-align: center;
+    padding: 115px 120px 180px 120px;
+
+}
+
+.element{
+width: 183px;
+height: 19px;
+color: #469165;
+font-family: Inter;
+font-style: Medium;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+background-color: #FFFFFF;
+ border-radius: 20px;
+}
+
+.second-section h1{
+    font-size:56px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.hero h1 span{
+    color: rgba(48, 184, 104, 1)
+}
+.second-section p{
+    color: rgba(255, 255, 255, 1);
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.second-section-buttons {
+    display: flex;
+    gap: 17px ;
+    justify-content: center;
+}
+
+.btn-vault{
+gap: 10;
+padding: 12px 20px;
+border-radius: 4px;
+background: #469165;
+color: rgba(255, 255, 255, 1);
+border: none;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 1px solid white; 
+    
+    padding: 12px 16px 12px 16px;
+}
+.span{
+    color: #30B868;
+}
